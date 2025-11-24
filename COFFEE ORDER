@@ -1,0 +1,30 @@
+class coffeeorder{
+        string size;
+        double price;
+//constructor
+coffee order(string size,double price){
+    this.size=size;
+    this.price=price;
+}
+//Display details
+void display order(){
+    system.out.println("coffee size:"+size);
+    system.out.println("coffee price:"+ price);
+}
+    }
+
+MAIN CLASS
+public class coffee shop{
+      public static void main(string[] args){
+       CoffeeOrder c1=new
+coffeeOrder("large",4.50);
+      coffeeOrder c2=new
+coffeeOrder("small",2.25);
+//Display details 
+system.out.println("Order1:Size-"+ order1.size+,"Price$"+ order1.price);
+system.out.println("Order2:size-"+ order2.size +,"Price$"+ order2.price);
+}
+   }
+
+
+
